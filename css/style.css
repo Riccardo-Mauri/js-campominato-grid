@@ -7,6 +7,14 @@ RESET
     box-sizing: border-box;
 }
 /*
+HEADER
+*/
+header{
+    text-align: center;
+    height: 100px;
+    background-color: aqua;
+}
+/*
 GENERAL
 */
 .container{
