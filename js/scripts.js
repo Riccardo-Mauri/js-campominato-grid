@@ -5,10 +5,10 @@ startButton.addEventListener('click', function () {
     const gridcontainer = document.getElementById('grid-container');
     console.log('cliccato');
     //creo un ciclo che prenda il numero inserito dall'utente e crea le celle
-    for (let i = 0; i <= 100; i++) {
+    for (let i = 1; i <= 100; i++) {
         const Element = document.createElement('div');
         Element.classList.add('cell');
-        Element.innerHTML = i + 1;
+        Element.innerHTML = i;
         //Quando l'utente clicca su ogni cella, la cella cliccata si colora di LIGHTCORAL ed emetto un messaggio in console con il numero della cella cliccata.
 
         Element.addEventListener('click', function () {
